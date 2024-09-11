@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.main{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.frontpg{
+  
+    padding: 20.3%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-famil: 'Poppins',sans-serif;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper img {
+    max-height: 70px;
+    float: left;
+}
+.menu_bar{
+    background-color: rgb(2, 3, 48);
+}
+
+.menu_bar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.menu_bar ul li{
+    padding: 10px 20px 10px 16px;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13.935px;
+}
+.menu_bar ul li a:hover{
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 1;
+    background-color: rgb(2,3,49);
+    margin-top: 12px;
+}
+
+.dropdown_menu ul{
+    display: block;
+    
+} 
+.dropdown_menu ul li{
+   width: 150px;
+   padding: 10px;
+}
+.head ul{
+    display: flex;
+    background-color: white;
+}
+.head ul li{
+    padding: 10px 50px 10px 50px;
+    list-style: none;
+    
+}
+.head ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: blue;
+    color: aliceblue;
+}
+.header UL{
+    display: flex;
+    align-items: center;
+}
+.header ul li{
+    padding: 10px 40px 10px 40px;
+    list-style: none;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.header ul li a:hover{
+    color:crimson;
+}
+.dropdown_menu2{
+    display: none;
+}
+
+.header ul li:hover .dropdown_menu2{
+    display: block;
+    position: absolute;
+    left: 1;
+    background-color: rgb(2,3,49);
+    margin-top: 12px;
+}
+
+.dropdown_menu2 ul{
+    display: block;
+    background-color: rgb(2,3,49);
+    margin-top: 10px;
+} 
+.dropdown_menu2 ul li{
+   width: 200px;
+   padding: 10px;
+}
+.dropdown_menu2 ul li a{
+    font-size: 15px;
+ }
+.dropdown_menu3{
+    display: none;
+}
+.dropdown_menu2 ul li:hover .dropdown_menu3{
+    display:block;
+    position: absolute;
+    left: 1;
+    background-color: rgb(2,3,49);
+    margin-left: 190px;
+}
+.dropdown_menu3 ul{
+    display: block;
+    background-color: rgb(2,3,49);
+    margin-top: 0px;
+    
+} 
+.dropdown_menu3 ul li{
+   width: 200px;
+   
+   padding: 10px;
+}
+.dropdown_menu3 ul li a{
+    font-size: 15px;
+ }
+ .dropdown_menu4{
+    display: none;
+ }
+ .dropdown_menu3 ul li:hover .dropdown_menu4{
+    display: block;
+    position: relative;
+    left: 1;
+    background-color: rgb(2,3,49);
+ }
+ .dropdown_menu4 ul{
+    display: block;
+    background-color: rgb(2,3,49);
+    margin-top: 10px;
+} 
+.dropdown_menu4 ul li{
+   width: 200px;
+   padding: 10px;
+}
+.dropdown_menu4 ul li a{
+    font-size: 15px;
+ }
+.event ul{
+    display: flex;
+    list-style: none;
+}
+.event ul li{
+    padding: 0px 160px 0px 200px;
+    font-size: 30px;
+    color: crimson;
+}
+.information ul{
+    display: flex;
+    list-style: none;
+}
+.information ul li{
+    padding: 0px 180px 0px 200px;
+    font-size: 30px;
+    color: black;
+    
+}
+ 
+.m{
+    padding: 20px 20px 20px 80px;
+}
+.m .sub{
+    border-radius: 20px;
+    border-top: rgb(2, 3, 48) solid 5px;
+}
+.m .sub .img img{
+    border: lightgray solid 5px;
+}
+
+.wrap{
+    /* display: flex;
+    align-items: center;
+    justify-content:center; */
+    background-image : url(/VIPS.edu/students\ photo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.element .data{
+    border-bottom: yellow solid 2px;
+    font-size: 60px;
+    
+}
+
+.element{
+    font-size: 20px;
+    color: white;
+    
+}
+.wrap ul{
+    list-style: none;
+    
+}
+.wrap ul li{
+    padding: 110px 0px 00px 0px;
+    
+}
+.wrap ul li ul{
+    display: flex;
+    
+}
+.wrap ul li ul li{
+    align-items: center;
+    padding: 0px 90px 0px 60px;
+    
+}
+
+.maindiv{
+    padding: 20px 0px 0px 20px;
+    background-color: whitesmoke;
+    width: 1300px;
+}
+.dep1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: WHITE;
+    COLOR: crimson;
+    font-size: 40PX;
+}
+.dep2{
+    padding-top: 10px;
+    background-color: white;
+    
+}
+.dep2 img{
+    float: right;
+    width: 280px;
+}
+.dep3{
+    padding: 20px 00px 0px 20px;
+    background-color: white;
+    font-size: 40px;
+    color: crimson;}
+.dep4{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.dep5{
+    padding-top:40px;
+    padding-left : 20px;
+    font-size: 30px;
+    background-color: white;
+}
+.dep6{
+    padding : 20px 0px 10px 0px;
+}
+.dep6 ul{
+    list-style: none;
+}
+.dep6 ul li{
+    font-size: 25px;
+}
