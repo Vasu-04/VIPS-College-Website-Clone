@@ -10,9 +10,11 @@ This repository contains a clone of the VIPS college website, created using HTML
 
 ## Getting Started
 ### Screenshots
-<img width="949" alt="image" src="https://github.com/user-attachments/assets/d814ddb7-739a-4bc5-bfbb-bab4098ec9ab">
-<img width="947" alt="image" src="https://github.com/user-attachments/assets/9fb1b820-c5fb-4859-ad3d-d74860dd81e3">
-<img width="946" alt="image" src="https://github.com/user-attachments/assets/7366da9d-7e74-4d0f-b9c8-1c3efbca9a9c">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/d814ddb7-739a-4bc5-bfbb-bab4098ec9ab">
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9fb1b820-c5fb-4859-ad3d-d74860dd81e3">
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7366da9d-7e74-4d0f-b9c8-1c3efbca9a9c">
 
 
 ### Prerequisites
